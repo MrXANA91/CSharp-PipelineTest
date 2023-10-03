@@ -20,6 +20,8 @@
         public void DoSomething()
         {
             GreetingMessage = string.Format(DO_SOMETHING_MESSAGE, ToString());
+
+            GreetingMessage = "Changing something so that now, tests will fail";
         }
 
         public override string ToString()
